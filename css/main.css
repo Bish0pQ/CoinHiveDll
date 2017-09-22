@@ -1,0 +1,9 @@
+table, th, td
+{
+	border: 2px solid black;
+	width:25%;
+	text-align:left;
+}
+tr:hover {background-color:#4e93fc;}
+body{background-color:#525156;}
+h1{ border:1px solid green; font-family: Arial;}
