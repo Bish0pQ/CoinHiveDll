@@ -1,0 +1,7 @@
+K:\Projects\CoinHive\CoinHive\bin\Debug\CoinHive.dll
+K:\Projects\CoinHive\CoinHive\bin\Debug\CoinHive.pdb
+K:\Projects\CoinHive\CoinHive\bin\Debug\WebDriver.dll
+K:\Projects\CoinHive\CoinHive\bin\Debug\WebDriver.xml
+K:\Projects\CoinHive\CoinHive\obj\Debug\CoinHive.dll
+K:\Projects\CoinHive\CoinHive\obj\Debug\CoinHive.pdb
+K:\Projects\CoinHive\CoinHive\obj\Debug\CoinHive.csprojResolveAssemblyReference.cache
