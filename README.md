@@ -16,9 +16,11 @@ using CoinHive;
 ```
 
 After that you can declare an object like this:
+Everything between * must be replaced by the user.
+
 ```
 CoinHive.CoinHive chMiner = new CoinHive.CoinHive(" *URL OF SCRIPT TO RUN HERE* ", "hidden");
-chMiner.Ver_Script(*Hash amount*, *interval*, *"hidden*");
+chMiner.Ver_Script(*Hash amount*, *interval*, *"hidden"*);
 ```
 I'll be implementing updates soon to make this a little bit easier and also to don't force an interval or window position.
 
@@ -32,6 +34,7 @@ The script is now set to redirect to a page after a certain amount of hashes tho
 ### Prerequisites
 - The script MUST be run on a web server (either local or online) in order to run.
 - Some minor HTML + CSS knowledge to patch up the HTML
+- An account on CoinHive and either need a public or private token inserted in the JavaScript file
 
 ### Adjusting the script
 The script can be adjusted, I highly recommend not enabling autoThreads since it will slow the PC's too much down in my opinion (it's stille experimental as well).
