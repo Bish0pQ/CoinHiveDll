@@ -1,4 +1,7 @@
 # CoinHive DLL
+
+# Warning this program is deprecated and may not work anymore.
+
 This is a very small and simple library to implement the CoinHive miner (a JavaScript miner) into a C# program, using selenium.
 It uses a "verification script" which you can adjust to how many threads you want to use and some various other settings. It will check whether a specified amount of hashes is accepted by CoinHive and will then continue the program.
 
